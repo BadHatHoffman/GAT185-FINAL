@@ -102,13 +102,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6216889767507791170}
-  - component: {fileID: 9198271746274018420}
-  - component: {fileID: 937125558063429764}
+  - component: {fileID: 5837039073002746657}
+  - component: {fileID: 4482084696417976377}
   - component: {fileID: 6216889767507791171}
   - component: {fileID: 6216889767507791164}
   - component: {fileID: 6216889767507791169}
   m_Layer: 6
-  m_Name: PlayerShip
+  m_Name: PlayerShip 1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -132,7 +132,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9198271746274018420
+--- !u!114 &5837039073002746657
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   turnRate: 40
---- !u!114 &937125558063429764
+--- !u!114 &4482084696417976377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 0.1
-  projectile: {fileID: 9177267919938974597, guid: e46a663badc82d749b92eceb81aa5d52, type: 3}
+  projectile: {fileID: 9177267919938974597, guid: b4e4ea594844df84db3b99b5aa32ec97, type: 3}
   emitTransform: {fileID: 6216889767598263030}
 --- !u!54 &6216889767507791171
 Rigidbody:
@@ -244,7 +244,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6216889767598263031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1.87}
+  m_LocalPosition: {x: 0, y: 0, z: 3.68}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6216889767507791170}
