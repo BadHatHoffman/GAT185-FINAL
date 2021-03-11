@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ca24d2217e5efe4fb3d5a1e281a0c9a, type: 3}
   m_Name: BasicEnemyShipData
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 3
   turnRate: 2
   fireRange: 20
   targetTag: Player

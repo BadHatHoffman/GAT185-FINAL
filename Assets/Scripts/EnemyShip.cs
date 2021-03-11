@@ -31,5 +31,7 @@ public class EnemyShip : MonoBehaviour
         {
             weapon.Fire(transform.forward);
         }
+
+        transform.position = Utilities.Wrap(transform.position, new Vector3(-45, -30, -30), new Vector3(45, 30, 30));
     }
 }
