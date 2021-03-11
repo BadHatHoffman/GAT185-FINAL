@@ -1918,7 +1918,7 @@ MonoBehaviour:
   titleScreen: {fileID: 1474772386}
   optionsScrene: {fileID: 1045020372}
   pauseScrene: {fileID: 139056600}
-  transition: {fileID: 1210177250}
+  transition: {fileID: 570864556}
   deathScreen: {fileID: 1945349524}
   audioMixer: {fileID: 24100000, guid: 292b9fbf6d645d744ad6af5f6c305e3a, type: 2}
   masterSlider: {fileID: 131540721}
@@ -1953,7 +1953,7 @@ MonoBehaviour:
   image: {fileID: 1210177248}
   time: 2
   color: {r: 0, g: 0, b: 0, a: 0}
-  startOnAwake: 0
+  startOnAwake: 1
 --- !u!1 &577599183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3094,7 +3094,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1210177247}
-  - component: {fileID: 1210177250}
   - component: {fileID: 1210177249}
   - component: {fileID: 1210177248}
   m_Layer: 0
@@ -3136,7 +3135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.8392157}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 0
@@ -3158,22 +3157,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210177246}
   m_CullTransparentMesh: 1
---- !u!114 &1210177250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1210177246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d356723fdeea1644b1267fdf946dd24, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  image: {fileID: 1210177248}
-  time: 2
-  color: {r: 0, g: 0, b: 0, a: 0}
-  startOnAwake: 1
 --- !u!1 &1347839666
 GameObject:
   m_ObjectHideFlags: 0
