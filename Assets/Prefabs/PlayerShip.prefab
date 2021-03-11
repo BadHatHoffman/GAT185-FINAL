@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6216889767377104834}
   - component: {fileID: 6216889767377104833}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,12 +102,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6216889767507791170}
-  - component: {fileID: 9198271746274018420}
-  - component: {fileID: 937125558063429764}
+  - component: {fileID: 6216889767507791165}
+  - component: {fileID: 8867559333020259660}
   - component: {fileID: 6216889767507791171}
   - component: {fileID: 6216889767507791164}
-  - component: {fileID: 6216889767507791169}
-  m_Layer: 6
+  - component: {fileID: -3746870015143614610}
+  m_Layer: 3
   m_Name: PlayerShip
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -132,7 +132,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9198271746274018420
+--- !u!114 &6216889767507791165
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 40
   turnRate: 40
---- !u!114 &937125558063429764
+--- !u!114 &8867559333020259660
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -159,8 +159,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireRate: 0.1
-  projectile: {fileID: 0}
-  emitTransform: {fileID: 0}
+  projectile: {fileID: 9177267919938974597, guid: e46a663badc82d749b92eceb81aa5d52, type: 3}
+  emitTransform: {fileID: 6216889767598263030}
 --- !u!54 &6216889767507791171
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -190,7 +190,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &6216889767507791169
+--- !u!114 &-3746870015143614610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6216889767598263030}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: EmitWeapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -259,7 +259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6216889767659677027}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: CameraTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,7 +289,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1186817620474416, guid: d9c1fac1f620ebd4f9e47ef7b9ca6bca, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1259762591101698, guid: d9c1fac1f620ebd4f9e47ef7b9ca6bca, type: 3}
       propertyPath: m_Name
@@ -297,7 +297,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1259762591101698, guid: d9c1fac1f620ebd4f9e47ef7b9ca6bca, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4846459981974822, guid: d9c1fac1f620ebd4f9e47ef7b9ca6bca, type: 3}
       propertyPath: m_RootOrder
@@ -378,7 +378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1152354105411914, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4657497382128574, guid: cdbec52167efb6a48b63cebb3284c246, type: 3}
       propertyPath: m_RootOrder
