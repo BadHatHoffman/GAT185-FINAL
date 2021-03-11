@@ -11,6 +11,7 @@ public class GameController : MonoBehaviour
     public GameObject optionsScrene;
     public GameObject pauseScrene;
     public Transition transition;
+    public GameObject deathScreen;
 
     public AudioMixer audioMixer;
 
@@ -19,6 +20,7 @@ public class GameController : MonoBehaviour
     public int highScore = 0;
 
     bool isPaused = false;
+    bool isDead = false;
     float timeScale;
 
     static GameController instance = null;
@@ -129,7 +131,35 @@ public class GameController : MonoBehaviour
     {
         OnPauseScreen();
     }
+    public void OnDeathScreen()
+    {
+        if (isDead)
+        {
+            isDead = false;
+            deathScreen.SetActive(false);
+            Time.timeScale = timeScale;
+        }
+        else
+        {
+            isDead = true;
+            deathScreen.SetActive(true);
+            timeScale = Time.timeScale;
+            Time.timeScale = 0;
 
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+
+    }
+
+    public void DisableDeathScreen()
+    {
+        deathScreen.SetActive(false);
+    }
+    public void OnDead()
+    {
+        OnDeathScreen();
+    }
     public void OnMasterVolume(float level)
     {
         audioMixer.SetFloat("MasterVolume", level);
