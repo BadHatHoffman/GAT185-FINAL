@@ -29,7 +29,7 @@ public class PlayerShip : MonoBehaviour
         var main = ps.main;
         main.startLifetime = inputDirection.y;
 
-        transform.position = Utilities.Wrap(transform.position, new Vector3(-45, -30, -30), new Vector3(45, 30, 30));
+        transform.position = Utilities.Wrap(transform.position, new Vector3(-35, -30, -28), new Vector3(35, 30, 28));
     }
 
     public void OnMove(InputValue input)
