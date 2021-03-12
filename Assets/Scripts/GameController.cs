@@ -62,7 +62,7 @@ public class GameController : MonoBehaviour
 
     IEnumerator LoadGameScene(string sceneName)
     {
-        transition.StartTransition(Color.black, 1);
+        transition.StartTransition(Color.clear, 1);
 
         while (!transition.IsDone) { yield return null; }
 
