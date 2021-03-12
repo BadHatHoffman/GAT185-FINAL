@@ -103,7 +103,6 @@ GameObject:
   m_Component:
   - component: {fileID: 144891005833356462}
   - component: {fileID: 5740837076009636678}
-  - component: {fileID: -2872351311407192467}
   - component: {fileID: 4304892368756265188}
   - component: {fileID: -4587347083734531155}
   m_Layer: 9
@@ -144,22 +143,7 @@ MonoBehaviour:
   timer: 5
   speed: 30
   destroyOnHit: 1
-  destroyFx: {fileID: 1879769179923522, guid: 65932b7368590234d8163da03c2055d8, type: 3}
---- !u!114 &-2872351311407192467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9177267919938974597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e618883cb8ff4c041b1a3f09510b352b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  force: 10
-  damge: 10
-  isRadial: 0
+  destroyFx: {fileID: 648720957771647722, guid: 1b6411d636a75e9438745bcc09260b54, type: 3}
 --- !u!54 &4304892368756265188
 Rigidbody:
   m_ObjectHideFlags: 0
