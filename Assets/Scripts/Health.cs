@@ -16,13 +16,11 @@ public class Health : MonoBehaviour
     public float health { get; set; }
     public bool isDead { get; set; } = false;
 
-    // Start is called before the first frame update
     void Start()
     {
         health = healthMax;
     }
 
-    // Update is called once per frame
     void Update()
     {
         AddHealth(-Time.deltaTime * decay);
