@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 4721264939496844484}
   - component: {fileID: 4721264939496844507}
   - component: {fileID: 4721264939496844486}
+  - component: {fileID: -1061803093267714502}
   - component: {fileID: 1188525002802158310}
   - component: {fileID: 274666693492381607}
   m_Layer: 7
@@ -189,6 +190,26 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-1061803093267714502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4721264939496844505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2ba6ca72c43bc459dcc4af6be81f00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthMax: 25
+  decay: 0
+  slider: {fileID: 0}
+  destroySpawnObject: {fileID: 0}
+  destroyOnDeath: 1
+  deathEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &1188525002802158310
 MonoBehaviour:
   m_ObjectHideFlags: 0
